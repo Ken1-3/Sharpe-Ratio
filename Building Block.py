@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Dec  4 23:53:04 2021
-
-@author: Kenneth Traina
-"""
 import datetime
 from math import *
 import numpy as np
@@ -12,7 +6,6 @@ import pandas_datareader as web
 import statsmodels.api as sm
 from sklearn.model_selection import GridSearchCV
 from sklearn.neighbors import KernelDensity
-
 
 stocks = ['TM', 'TSLA', 'GM', 'RACE', 'TTM', 'F', 'HMC', 'VWAGY']
 
@@ -37,7 +30,8 @@ def sharpe_ratio(start_date, end_date, stock_list):
     for sharpe_ratio in range(1000):
         
         #get performance metrics
-        weights = np.random.rand(8)
+        portfolio_length = len(stocks)
+        weights = np.random.rand(portfolio_length)
         portfolio_weights = weights/sum(weights)
         weighted_p = portfolio_returns * portfolio_weights
         indi_expected_returns = weighted_p.mean()
