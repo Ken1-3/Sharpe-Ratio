@@ -24,7 +24,7 @@ import matplotlib.pyplot as plt
 import pandas_datareader as web
 import statsmodels.api as sm
 from sklearn.model_selection import GridSearchCV
-from sklearn.neighbors import KernelDensity``  
+from sklearn.neighbors import KernelDensity  
  ```
 ### Set Up Conditions
    Start by defining a function to easily adjust the start/end dates, and basket of stocks we will pick from
