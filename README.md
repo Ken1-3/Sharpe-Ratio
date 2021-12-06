@@ -1,7 +1,7 @@
 # Sharpe-Ratio
 
 ##  The sharpe ratio is a key benchmark in assessing risk-adjusted portfolios
-  This project asses the sharpe ratio of any given portfolio denoted by 'stocks' list through any chosen time period `start` and `end`. Using random weight assignments, we can iterate through thousands of possible weights assignments for each stock within the specificed portfolio, and formulize the sharpe ratio of each iteration. The results are then plotted to view the distribution of sharpe ratio perormance in the aggregate for identifying which basket of stocks have the highest liklihood of returning profitable, risk adjusted poerfolio. 
+  This project asses the sharpe ratio of any given portfolio denoted by  `stocks`  list through any chosen time period `start` and `end`. Using random weight assignments, we can iterate through thousands of possible weights assignments for each stock within the specificed portfolio, and formulize the sharpe ratio of each iteration. The results are then plotted to view the distribution of sharpe ratio perormance in the aggregate for identifying which basket of stocks have the highest liklihood of returning profitable, risk adjusted poerfolio. 
 ####  We can start by installing the needed modules
 ####  This code is running GUI on [The Quants Philosopher](https://www.thequantsphilosopher.com/)
 
